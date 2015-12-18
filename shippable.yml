@@ -4,6 +4,7 @@ build_image: drydock/u12golall:tip
 
 go:
   - 1.2
+  - 1.5
 
 env:
   - CI_REPORT=shippable/testresults/junit.xml
